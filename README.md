@@ -1,2 +1,1 @@
-# ToDo
-ToDo List App
+# todolist
