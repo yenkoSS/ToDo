@@ -12,6 +12,7 @@ function App() {
     const newItem = { id: Date.now(), name: itemName, qty: qty, isDone: false };
     console.log(newItem);
     setItems((items) => [...items, newItem]);
+    setItemName("");
   }
 
   function deleteItem(id) {
